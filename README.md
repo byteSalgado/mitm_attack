@@ -10,4 +10,4 @@ chmod +x install.sh
 
 ENJOY
 
-./mitm.sh
+./mitm.sh (en termux ejecutar bash mitm.sh)
